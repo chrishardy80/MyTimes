@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 header {
   align-items: center;
   font-family: Verdana;
@@ -28,4 +32,48 @@ nav span {
 
 .logo img {
   margin-right: 12px;
+}
+
+.content {
+  display: inline-flex;
+  margin: 0 auto 78px 0;
+  width: 1232px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.image-container {
+  display: flex;
+  height: 300px;
+}
+
+.image-container.one {
+  background-image: url(../images/img-story-main.png);
+}
+
+.image-container.two {
+  background-image: url(../images/img-story-2.png);
+}
+
+.image-container.three {
+  background-image: url(../images/img-story-3.png);
+}
+
+.image-container.four {
+  background-image: url(../images/img-story-1.png);
 }
